@@ -615,3 +615,15 @@ img {
 img {
     image-rendering: -webkit-optimize-contrast;
 }
+
+.gallery-item {
+    cursor: pointer;
+}
+
+.gallery-item:hover .gallery-image {
+    transform: scale(1.1);
+}
+
+.gallery-item:hover .gallery-overlay {
+    opacity: 1 !important;
+}
